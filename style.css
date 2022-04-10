@@ -1,0 +1,58 @@
+html {
+    background-color: #041b85d2;
+    height: 100%;
+}
+
+h1 {
+    color: #fffc47;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    height: 335px;
+    width: 350px;
+    background-color: #f1ef40;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px ;
+    grid-template-areas: 
+    ". index-nou"
+    ". index-nou-citit"
+    "btn btn"
+    ". consum-lunar"
+    ". total-suma";
+    margin: 0 auto;
+    border: 5px solid #f8f7ca;
+    padding: 25px;
+}
+
+#index-nou {
+    grid-area: index-nou;
+    height: 25px;
+    width: 250px;
+}
+
+#index-nou-citit {
+    grid-area: index-nou-citit;
+    height: 25px;
+    width: 250px;
+}
+
+#consum-lunar {
+    grid-area: consum-lunar;
+    height: 25px;
+    width: 250px;
+}
+
+#total-suma {
+    grid-area: total-suma;
+    height: 25px;
+    width: 250px;
+}
+
+#btn {
+    grid-area: btn;
+    height: 25px;
+    width: auto;
+}
