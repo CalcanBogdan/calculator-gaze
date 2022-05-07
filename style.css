@@ -1,10 +1,10 @@
 html {
-    background-color: #041b85d2;
+    background-color: #005F60;
     height: 100%;
 }
 
 h1 {
-    color: #fffc47;
+    color: #f8f7ca;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -12,7 +12,7 @@ h1 {
 #container {
     height: 335px;
     width: 350px;
-    background-color: #f1ef40;
+    background-color:  #F78104;
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-template-rows: 75px 75px 75px 75px ;
