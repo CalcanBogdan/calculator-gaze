@@ -17,36 +17,36 @@ h1 {
     grid-template-columns: 100px 1fr;
     grid-template-rows: 75px 75px 75px 75px ;
     grid-template-areas: 
-    ". index-nou"
-    ". index-nou-citit"
+    ". new-index"
+    ". new-read-index"
     "btn btn"
-    ". consum-lunar"
-    ". total-suma";
+    ". monthly-intake"
+    ". total-amount";
     margin: 0 auto;
     border: 5px solid #f8f7ca;
     padding: 25px;
 }
 
-#index-nou {
-    grid-area: index-nou;
+#new-index {
+    grid-area: new-index;
     height: 25px;
     width: 250px;
 }
 
-#index-nou-citit {
-    grid-area: index-nou-citit;
+#new-read-index {
+    grid-area: new-read-index;
     height: 25px;
     width: 250px;
 }
 
-#consum-lunar {
-    grid-area: consum-lunar;
+#monthly-intake {
+    grid-area: monthly-intake;
     height: 25px;
     width: 250px;
 }
 
-#total-suma {
-    grid-area: total-suma;
+#total-amount {
+    grid-area: total-amount;
     height: 25px;
     width: 250px;
 }
